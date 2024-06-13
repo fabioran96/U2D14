@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pexels Album</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <input type="text" id="search-field" placeholder="Search for images..." />
+      <button id="load-images">Load Images</button>
+      <button id="load-secondary-images">Load Secondary Images</button>
+    </header>
+    <main id="image-gallery"></main>
+
+    <div id="image-modal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modal-img" />
+      <div id="modal-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
